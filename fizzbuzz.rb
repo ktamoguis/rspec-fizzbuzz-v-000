@@ -1,10 +1,10 @@
 def fizzbuzz(input)
-  if input == 3
+  if input.to_i == 3
     puts "Fizz"
-  elsif input == 5
+  elsif input.to_i == 5
     puts "Buzz"
-  elsif input == 15
+  elsif input.to_i == 15
     puts "FizzBuzz"
-  else    
+  else
 
 end
